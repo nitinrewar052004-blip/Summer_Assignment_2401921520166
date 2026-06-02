@@ -4,7 +4,6 @@ public:
         unordered_set<int> seen;
         
         for (int num : nums) {
-            // Agar number pehle se set mein hai, toh duplicate mil gaya
             if (seen.count(num) > 0) {
                 return true;
             }
